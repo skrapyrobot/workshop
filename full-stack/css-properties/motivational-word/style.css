@@ -1,0 +1,28 @@
+h1 {
+    text-transform: uppercase;
+    font-family: 'Edu NSW ACT Hand Pre', cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+}
+
+.main-meme {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: black;
+    align-items: center;
+    color: white;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid yellow;
+    margin-top: 5rem;
+}
+
+p {
+    text-transform: lowercase;
+}
