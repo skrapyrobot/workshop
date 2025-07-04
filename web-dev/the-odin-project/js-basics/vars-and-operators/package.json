@@ -1,0 +1,13 @@
+{
+    "name": "vars-and-operators",
+    "version": "0.1.0",
+    "description": "variables and operators on js(ts actually)",
+    "license": "MIT",
+    "author": "",
+    "type": "commonjs",
+    "main": "./dist/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "watch": "tsc -w"
+    }
+}
