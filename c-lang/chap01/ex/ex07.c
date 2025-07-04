@@ -10,7 +10,7 @@ int main(int argc, char const *argv[])
         putchar(c);
         c = getchar();
     }
-    printf("EOF = %c\n", c);
+    printf("EOF = %d\n", c);
 
     return 0;
 }
