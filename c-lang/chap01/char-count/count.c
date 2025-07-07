@@ -6,11 +6,13 @@ int main(int argc, char const *argv[])
     long nc = 0;
     int c = getchar();
 
-    while (c != EOF | c != 10)
+    while (c != EOF)
     {
-        printf("The input is: %1d \n", c);
-        ++nc;
-        printf("This line has ran %1ld times\n", nc);
+        if (c != 10)
+        {
+            ++nc;
+            printf("%1d\n", nc);
+        }
 
         c = getchar();
     }
